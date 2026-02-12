@@ -92,9 +92,46 @@
         </div>
         <!-- ============= 互動練習區塊結束 ============= -->
 
-        <!-- 原有卡片區域 (單詞/句子) 保持不變 -->
-        <div class="section cards-section active" id="words-cards"><!-- 內容略 --></div>
-        <div class="section cards-section" id="sentences-cards"><!-- 內容略 --></div>
+<!-- 原有卡片區域 (單詞/句子) -->
+<div class="section cards-section active" id="words-cards">
+    <div class="section-controls">
+        <div class="section-title">高頻詞彙</div>
+        <div>
+            <button class="reset-all-button" onclick="resetAllUnitsData(event)">
+                <i class="fas fa-trash-alt"></i> 重置所有單元
+            </button>
+            <button class="reset-button" onclick="resetCurrentTabData(event)">
+                <i class="fas fa-redo"></i> 重置當前單元
+            </button>
+        </div>
+    </div>
+    <!-- ✅ 這是 app.js 要操作的 #words-grid 元素 -->
+    <div class="cards-grid" id="words-grid">
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i> 請先選擇單元...
+        </div>
+    </div>
+</div>
+
+<div class="section cards-section" id="sentences-cards">
+    <div class="section-controls">
+        <div class="section-title">句子讀默</div>
+        <div>
+            <button class="reset-all-button" onclick="resetAllUnitsData(event)">
+                <i class="fas fa-trash-alt"></i> 重置所有單元
+            </button>
+            <button class="reset-button" onclick="resetCurrentTabData(event)">
+                <i class="fas fa-redo"></i> 重置當前單元
+            </button>
+        </div>
+    </div>
+    <!-- ✅ 這是 app.js 要操作的 #sentences-grid 元素 -->
+    <div class="cards-grid" id="sentences-grid">
+        <div class="loading">
+            <i class="fas fa-spinner fa-spin"></i> 請先選擇單元...
+        </div>
+    </div>
+</div>
 
         <!-- Footer 保持不變 -->
         <div class="footer"><!-- 內容略 --></div>
