@@ -1,0 +1,201 @@
+{
+  "unitId": "unit1",
+  "unitName": "Unit 1 – A Severe Fire in Hong Kong",
+  "article": {
+    "title": "A Severe Fire in Hong Kong\n香港發生嚴重火警",
+    "illustration": "/english-reading-multi/images/unit1/fireman.png",
+    "paragraphs": [
+      {
+        "id": 1,
+        "english": "On November 26, 2025, a terrible <span class='highlight1'>fire</span> <span class='highlight2'>broke out</span> in Wang Fuk Yuen, Tai Po, Hong Kong, which shocked the whole city. The <span class='highlight1'>fire</span> <span class='highlight3'>started</span> from the scaffolding on the outer wall of a building in Wang Fuk Yuen at about 2:51 pm. Within just a few hours, it escalated to a Level 5 <span class='highlight1'>fire</span>, the second-highest alarm level in Hong Kong.",
+        "translation": "🌐 2025年11月26日，香港大埔宏福苑發生一場可怕的大火，震驚了全城。這場大火於下午約2時51分由宏福苑一幢大廈外牆的棚架起火，僅在數小時內便升級為香港第二高級別的五級火警。",
+        "implication": {
+          "english": "💡 The Wang Fuk Yuen fire was extremely severe (escalating to Hong Kong's 2nd-highest alarm level quickly), which immediately drew widespread public attention.",
+          "chinese": "💡 宏福苑大火的情勢相當嚴峻（火勢迅速升級至香港第二高級別的火警等級），這起事件瞬間引起了社會大眾的廣泛關注。"
+        }
+      },
+      {
+        "id": 2,
+        "english": "Strong winds made the <span class='highlight1'>fire</span> <span class='highlight4'>spread</span> <span class='highlight5'>quickly</span> to seven nearby buildings. The old scaffolding and green construction nets on the buildings acted like fuel, making the flames burn more fiercely. The high temperature at the scene was a big <span class='highlight1'>challenge</span> for firefighters.",
+        "translation": "🌐 強風導致大火迅速蔓延至附近七幢大廈。大廈上的舊棚架和綠色建築網宛如燃料一般，令火焰燃燒得更為猛烈。現場的高溫對消防人員來說是一項巨大的挑戰。",
+        "implication": {
+          "english": "💡 Strong winds and flammable building materials (old scaffolding and construction nets) caused the fire to spread rapidly and burn fiercely, posing a great challenge to firefighters due to the high temperature.",
+          "chinese": "💡 強風與易燃的建築材料（舊棚架及建築網）導致火勢迅速蔓延且燃燒猛烈，現場的高溫給消防人員帶來了極大的挑戰。"
+        }
+      },
+      {
+        "id": 3,
+        "english": "Some residents were trapped on the upper floors, and <span class='highlight2'>rescue</span> workers couldn't reach them immediately due to the extreme heat. However, the <span class='highlight2'>rescue</span> <span class='highlight3'>team</span> kept in <span class='highlight4'>touch</span> with the trapped people by <span class='highlight5'>phone</span> to calm them down.",
+        "translation": "🌐 部分居民被困在高層樓宇，由於溫度極高，救援人員無法立即抵達他們身邊。然而，救援團隊透過電話與被困人士保持聯繫，以安撫他們的情緒。",
+        "implication": {
+          "english": "💡 Some residents were trapped on the upper floors due to extreme heat that blocked immediate rescue, but the rescue team maintained phone contact with them to ease their anxiety.",
+          "chinese": "💡 極高溫度阻礙了即時救援，導致部分居民被困在高層樓宇，不過救援團隊透過電話與他們保持聯繫，以緩解他們的焦慮情緒。"
+        }
+      },
+      {
+        "id": 4,
+        "english": "More than 700 firefighters and <span class='highlight2'>rescue</span> workers were <span class='highlight1'>sent</span> to the scene, along with 128 fire engines and 57 ambulances. <span class='highlight2'>Sadly</span>, the <span class='highlight1'>fire</span> caused 13 deaths and 28 injuries, including a 37-year-old firefighter who <span class='highlight3'>lost</span> his <span class='highlight4'>life</span> while fighting the blaze.",
+        "translation": "🌐 超過700名消防人員及救援人員被派遣到現場，同時出動了128輛消防車和57輛救護車。令人悲痛的是，這場大火造成13人死亡、28人受傷，其中包括一名37歲的消防人員，他在撲滅大火時殉職。",
+        "implication": {
+          "english": "💡 A large-scale rescue force was deployed to the fire scene, but the fire still caused heavy casualties, including a 37-year-old firefighter who sacrificed his life while extinguishing the blaze.",
+          "chinese": "💡 大量救援力量被派遣至火災現場，但大火仍造成了慘重的人員傷亡，其中包括一名在撲火過程中殉職的37歲消防人員。"
+        }
+      },
+      {
+        "id": 5,
+        "english": "The Hong Kong Fire Services Department even changed its official website to black and white to mourn the fallen hero. The Hong Kong government took quick <span class='highlight5'>action</span>. It opened temporary shelters for the affected residents, and social workers and psychologists were <span class='highlight1'>sent</span> to offer emotional support.",
+        "translation": "🌐 香港消防處更將其官方網站改為黑白配色，以悼念這位殉職的英雄。香港政府迅速採取行動，為受影響的居民開設臨時庇護中心，並派遣社工及心理學家提供情緒支援。",
+        "implication": {
+          "english": "💡 The Hong Kong Fire Services Department mourned the fallen firefighter by changing its official website to black and white, and the Hong Kong government took prompt measures to provide relief and emotional support to affected residents.",
+          "chinese": "💡 香港消防處透過將官方網站改為黑白配色來悼念殉職消防人員，而香港政府也迅速採取措施，為受影響居民提供救助與情緒支援。"
+        }
+      },
+      {
+        "id": 6,
+        "english": "Schools near the <span class='highlight1'>fire</span> site were closed on November 27 to ensure students' <span class='highlight2'>safety</span>. It is <span class='highlight3'>important</span> to note that the <span class='highlight4'>cause</span> of the <span class='highlight1'>fire</span> is still under <span class='highlight5'>investigation</span>, but the incident reminds everyone of the <span class='highlight3'>importance</span> of <span class='highlight2'>safety</span>, especially in old communities under construction.",
+        "translation": "🌐 大火現場附近的學校於11月27日停課，以確保學生的安全。值得注意的是，這場大火的成因仍在調查中，但這宗事件提醒所有人安全的重要性，尤其是在正在進行建築工程的舊式社區。",
+        "implication": {
+          "english": "💡 Nearby schools were closed for student safety the day after the fire, the fire's cause remains under investigation, and the incident serves as a reminder of the importance of safety, particularly in old under-construction communities.",
+          "chinese": "💡 火災次日，附近學校為保障學生安全宣布停課，大火成因目前仍在調查中，而這起事件也提醒了所有人安全的重要性，尤其是在正在施工的舊式社區。"
+        }
+      }
+    ]
+  },
+  "vocabulary": [
+    { "id": 1, "word": "fire", "meaning": "n. 火；火災", "highlightClass": "highlight1" },
+    { "id": 2, "word": "break out", "meaning": "phr. 爆發；突然發生", "highlightClass": "highlight2" },
+    { "id": 3, "word": "start", "meaning": "v. 開始；啟動", "highlightClass": "highlight3" },
+    { "id": 4, "word": "spread", "meaning": "v. 傳播；蔓延", "highlightClass": "highlight4" },
+    { "id": 5, "word": "quickly", "meaning": "adv. 迅速地", "highlightClass": "highlight5" },
+    { "id": 6, "word": "challenge", "meaning": "n. 挑戰", "highlightClass": "highlight1" },
+    { "id": 7, "word": "rescue", "meaning": "v. & n. 營救；救援", "highlightClass": "highlight2" },
+    { "id": 8, "word": "team", "meaning": "n. 團隊", "highlightClass": "highlight3" },
+    { "id": 9, "word": "touch", "meaning": "v. 接觸；聯繫", "highlightClass": "highlight4" },
+    { "id": 10, "word": "phone", "meaning": "n. 電話；v. 打電話", "highlightClass": "highlight5" },
+    { "id": 11, "word": "send", "meaning": "v. 發送；派遣", "highlightClass": "highlight1" },
+    { "id": 12, "word": "sadly", "meaning": "adv. 悲傷地", "highlightClass": "highlight2" },
+    { "id": 13, "word": "lose", "meaning": "v. 失去；丟失", "highlightClass": "highlight3" },
+    { "id": 14, "word": "life", "meaning": "n. 生命；生活", "highlightClass": "highlight4" },
+    { "id": 15, "word": "action", "meaning": "n. 行動", "highlightClass": "highlight5" },
+    { "id": 16, "word": "safe", "meaning": "adj. 安全的", "highlightClass": "highlight1" },
+    { "id": 17, "word": "important", "meaning": "adj. 重要的", "highlightClass": "highlight2" },
+    { "id": 18, "word": "cause", "meaning": "n. 原因；v. 導致", "highlightClass": "highlight3" },
+    { "id": 19, "word": "investigation", "meaning": "n. 調查", "highlightClass": "highlight4" },
+    { "id": 20, "word": "safety", "meaning": "n. 安全", "highlightClass": "highlight5" }
+  ],
+  "answers": {
+    "vocab": ["challenge", "fire", "spread", "rescue", "start", "Sadly", "action", "phone", "life", "safe"],
+    "reading": ["B", "B", "A", "C", "C", "B", "B", "A"],
+    "cloze": ["broke", "started", "quickly", "challenge", "rescue", "touch", "sent", "Sadly", "life", "action"],
+    "sevenFive": ["A", "E", "B", "C", "D", "G", "F"],
+    "grammar": ["on", "the", "of", "firefighters", "were trapped", "were sent", "his", "and", "to remember", "investigation"]
+  },
+  "vocabUsage": {
+    "questions": [
+      "A big <span class='vocab-dropzone' id='vocab-drop-1'></span> stopped the firefighters from saving the trapped people quickly.",
+      "The terrible <span class='vocab-dropzone' id='vocab-drop-2'></span> destroyed seven buildings in Hong Kong last week.",
+      "The wind made the fire <span class='vocab-dropzone' id='vocab-drop-3'></span> to the nearby houses in a short time.",
+      "The <span class='vocab-dropzone' id='vocab-drop-4'></span> team arrived at the scene within 10 minutes after the call.",
+      "The party will <span class='vocab-dropzone' id='vocab-drop-5'></span> at 7 o'clock this evening, please be on time.",
+      "<span class='vocab-dropzone' id='vocab-drop-6'></span>, a firefighter lost his life when fighting the blaze.",
+      "Our government took quick <span class='vocab-dropzone' id='vocab-drop-7'></span> to help the affected residents.",
+      "Please keep in touch with me by <span class='vocab-dropzone' id='vocab-drop-8'></span> if you have any problems.",
+      "It's very important to protect our <span class='vocab-dropzone' id='vocab-drop-9'></span> when we are in danger.",
+      "Parents always tell their children to stay <span class='vocab-dropzone' id='vocab-drop-10'></span> when they go out alone."
+    ],
+    "options": ["challenge", "fire", "spread", "rescue", "start", "Sadly", "action", "phone", "life", "safe"]
+  },
+  "readingComprehension": [
+    {
+      "question": "1. What is the main idea of the passage? (Main Idea)",
+      "options": [
+        { "id": "A", "text": "A. How firefighters trained for fire rescue" },
+        { "id": "B", "text": "B. A severe fire that happened in Hong Kong and its results" },
+        { "id": "C", "text": "C. The importance of fire safety in old communities" },
+        { "id": "D", "text": "D. The Hong Kong government's action on fire prevention" }
+      ]
+    },
+    {
+      "question": "2. When did the fire break out in Wang Fuk Yuen? (Detail)",
+      "options": [
+        { "id": "A", "text": "A. On November 25, 2025" },
+        { "id": "B", "text": "B. On November 26, 2025" },
+        { "id": "C", "text": "C. On November 27, 2025" },
+        { "id": "D", "text": "D. On December 26, 2025" }
+      ]
+    },
+    {
+      "question": "3. How many firefighters lost their lives in the fire? (Detail)",
+      "options": [
+        { "id": "A", "text": "A. 1" },
+        { "id": "B", "text": "B. 13" },
+        { "id": "C", "text": "C. 28" },
+        { "id": "D", "text": "D. 700" }
+      ]
+    },
+    {
+      "question": "4. What does \"it\" in \"It opened temporary shelters\" refer to? (Pronoun Reference)",
+      "options": [
+        { "id": "A", "text": "A. The fire" },
+        { "id": "B", "text": "B. The Hong Kong Fire Services Department" },
+        { "id": "C", "text": "C. The Hong Kong government" },
+        { "id": "D", "text": "D. The temporary shelter" }
+      ]
+    },
+    {
+      "question": "5. Why were schools near the fire site closed on November 27? (Detail)",
+      "options": [
+        { "id": "A", "text": "A. Because the students were injured in the fire" },
+        { "id": "B", "text": "B. Because the schools were destroyed by the fire" },
+        { "id": "C", "text": "C. Because to ensure the students' safety" },
+        { "id": "D", "text": "D. Because the teachers were busy with rescue work" }
+      ]
+    },
+    {
+      "question": "6. What can we infer from the passage? (Inference)",
+      "options": [
+        { "id": "A", "text": "A. The fire was put out in less than one hour" },
+        { "id": "B", "text": "B. The fire was very difficult to control" },
+        { "id": "C", "text": "C. The cause of the fire has been found out" },
+        { "id": "D", "text": "D. No residents were trapped in the fire" }
+      ]
+    },
+    {
+      "question": "7. What does \"escalated\" probably mean? (Word Meaning Guessing)",
+      "options": [
+        { "id": "A", "text": "A. Became weaker" },
+        { "id": "B", "text": "B. Became more serious" },
+        { "id": "C", "text": "C. Stopped suddenly" },
+        { "id": "D", "text": "D. Started slowly" }
+      ]
+    },
+    {
+      "question": "8. How many ambulances were sent to the fire scene? (Detail)",
+      "options": [
+        { "id": "A", "text": "A. 57" },
+        { "id": "B", "text": "B. 128" },
+        { "id": "C", "text": "C. 700" },
+        { "id": "D", "text": "D. 28" }
+      ]
+    }
+  ],
+  "clozeText": "On November 26, 2025, a terrible fire <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-1' maxlength='10'></span> out in Wang Fuk Yuen, Hong Kong. It <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-2' maxlength='10'></span> from the scaffolding of a building and spread <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-3' maxlength='10'></span> due to strong winds. The fire became a Level 5 alarm, which was a big <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-4' maxlength='10'></span> for firefighters. Many residents were trapped, and the <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-5' maxlength='10'></span> team tried their best to help them. They kept in <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-6' maxlength='10'></span> with the trapped people by phone to calm them down. More than 700 workers were <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-7' maxlength='10'></span> to the scene. <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-8' maxlength='10'></span>, a firefighter lost his <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-9' maxlength='10'></span> in the fire. The government took quick <span class='grammar-blank'><input type='text' class='cloze-input' id='cloze-10' maxlength='10'></span> to help the affected people, and schools nearby were closed for safety.",
+  "sevenFive": {
+    "text": "A Severe Fire in Hong Kong\n                On November 26, 2025, a terrible fire <span class='seven-five-dropzone' id='drop-1'></span> in Wang Fuk Yuen, Tai Po, Hong Kong. The fire started from the scaffolding on the outer wall of a building at about 2:51 pm. <span class='seven-five-dropzone' id='drop-2'></span>, it escalated to a Level 5 fire, which is the second-highest alarm level in Hong Kong.\n                Strong winds played a big role in the fast spread of the fire, as they made the flames <span class='seven-five-dropzone' id='drop-3'></span> to seven nearby buildings. The old scaffolding and green construction nets on the buildings made the fire burn more fiercely. The high temperature at the scene was <span class='seven-five-dropzone' id='drop-4'></span> for firefighters.\n                Some residents were trapped on the upper floors, and rescuers could not reach them at once because of the extreme heat. However, the rescue team did not give up. They <span class='seven-five-dropzone' id='drop-5'></span> with the trapped people by phone to calm them down and told them to stay away from the fire.\n                More than 700 firefighters and rescue workers were sent to the scene, along with many fire engines and ambulances. <span class='seven-five-dropzone' id='drop-6'></span>, the fire caused 13 deaths and 28 injuries, including a 37-year-old firefighter who lost his life while fighting the blaze.\n                The Hong Kong government took quick action to help the affected people. It opened temporary shelters and sent social workers to offer help. Schools near the fire site were closed the next day <span class='seven-five-dropzone' id='drop-7'></span>. The cause of the fire is still under investigation, and it reminds everyone of the importance of fire safety.",
+    "options": [
+      { "id": "A", "text": "A. broke out" },
+      { "id": "B", "text": "B. move quickly" },
+      { "id": "C", "text": "C. a big challenge" },
+      { "id": "D", "text": "D. kept in touch" },
+      { "id": "E", "text": "E. Within just a few hours" },
+      { "id": "F", "text": "F. to ensure students' safety" },
+      { "id": "G", "text": "G. Sadly" }
+    ]
+  },
+  "grammarText": "A terrible fire broke out <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-1' maxlength='10'></span> November 26, 2025, in Wang Fuk Yuen, Hong Kong. It started from <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-2' maxlength='10'></span> scaffolding of a building and spread quickly because <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-3' maxlength='10'></span> strong winds. The fire was a big challenge for <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-4' maxlength='15'></span> (firefighter). Many residents <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-5' maxlength='15'></span> (trap) on the upper floors, but the rescue team kept in touch with them by phone. More than 700 workers <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-6' maxlength='15'></span> (send) to the scene. Sadly, a firefighter lost <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-7' maxlength='10'></span> (he) life in the fire. The government took quick action, <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-8' maxlength='10'></span> opened temporary shelters for the affected people. It is important <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-9' maxlength='15'></span> (remember) fire safety. The cause of the fire is still under <span class='grammar-blank'><input type='text' class='grammar-input' id='grammar-10' maxlength='15'></span> (investigate).",
+  "audio": {
+    "paragraphPattern": "/english-reading-multi/audio/unit1/paragraph_{id}.mp3",
+    "implicationPattern": "/english-reading-multi/audio/unit1/impl_{id}.mp3",
+    "vocabularyPattern": "/english-reading-multi/audio/unit1/word_{id}.mp3"
+  }
+}

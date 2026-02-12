@@ -1,0 +1,12 @@
+[
+  {
+    "unitId": "unit1",
+    "unitName": "Unit 1 – A Severe Fire in Hong Kong",
+    "dataUrl": "./data/unit1.json"
+  },
+  {
+    "unitId": "unit2",
+    "unitName": "Unit 2 – The Rise of Blindbox",
+    "dataUrl": "./data/unit2.json"
+  }
+]
