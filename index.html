@@ -3,138 +3,112 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>英語默書練習系統 | 進階互動版</title>
+    <title>英語文章閱讀 · 互動練習系統</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <style>
+        /* 快速修復：確保所有元素可見 */
+        .exercise-section { display: block !important; }
+        .vocab-section, .reading-section, .cloze-section, 
+        .sevenfive-section, .grammar-section { display: block !important; }
+    </style>
 </head>
 <body>
     <div class="container">
-        <!-- Header 保持不變 -->
+        <!-- 頁首 -->
         <div class="header">
-            <h1>英語默書練習系統</h1>
-            <div class="subtitle">多單元學習平台 | 自動進度追蹤 + 互動練習</div>
+            <h1>📖 英語文章閱讀 · 互動練習</h1>
+            <div class="subtitle">多單元學習平台 | 自動進度追蹤 | 詞彙發音 | 即時反饋</div>
         </div>
         
-        <!-- 單元控制區 保持不變 -->
+        <!-- 單元選擇器 -->
         <div class="unit-controls">
             <div class="unit-selector">
-                <select class="unit-select" id="unit-select"></select>
+                <select class="unit-select" id="unit-select">
+                    <option value="">載入單元列表中...</option>
+                </select>
             </div>
             <div class="unit-info">
                 <div class="unit-title" id="current-unit-title">選擇單元開始學習</div>
-                <div class="unit-description" id="current-unit-description"></div>
+                <div class="unit-description" id="current-unit-description">香港消防處五級火警教材</div>
                 <div class="unit-meta">
-                    <span id="current-unit-stats">0 詞彙 | 0 句子</span>
-                    <span id="current-unit-progress">掌握度: 0%</span>
+                    <span id="current-unit-stats">詞彙: 20 | 練習: 4</span>
+                    <span id="current-unit-progress">掌握度: --</span>
                 </div>
             </div>
         </div>
 
-        <!-- 學習進度概覽 保持不變 -->
-        <div class="stats-container"><!-- 內容不變，略過詳細結構，可保留原有 --></div>
-
-        <!-- ============= 新增：互動練習區塊 ============= -->
-        <div id="exercise-panels" style="margin-top: 30px;">
-            <!-- 詞彙運用拖拽 (Vocabulary Drag & Drop) -->
-            <div class="exercise-section" id="vocab-drag-section" style="display: none;">
-                <div class="section-header">
-                    <h3><i class="fas fa-arrows-alt"></i> 詞彙運用 · 拖拽填空</h3>
-                    <div class="exercise-controls">
-                        <button class="btn-check" onclick="checkVocabDrag()"><i class="fas fa-check-circle"></i> 檢查答案</button>
-                        <button class="btn-reset" onclick="resetVocabDrag()"><i class="fas fa-undo-alt"></i> 重新開始</button>
-                        <button class="btn-undo" onclick="undoVocabDrag()"><i class="fas fa-history"></i> 返回上一步</button>
+        <!-- ============= 文章閱讀區塊 ============= -->
+        <div class="article-section-wrapper">
+            <div class="article-header">
+                <h2 id="article-title"></h2>
+                <div id="article-illustration-container">
+                    <img id="article-illustration" src="" alt="文章插圖" data-fallback="image-fallback">
+                    <div id="image-fallback" class="image-fallback" style="display: none;">
+                        <i class="fas fa-image" style="font-size: 32px;"></i>
+                        <span>圖片載入失敗</span>
                     </div>
                 </div>
-                <div id="vocab-drag-container"></div>
-                <div id="vocab-drag-feedback" class="feedback-area"></div>
             </div>
-
-            <!-- 完形填空 (Cloze Test) -->
-            <div class="exercise-section" id="cloze-section" style="display: none;">
-                <div class="section-header">
-                    <h3><i class="fas fa-edit"></i> 完形填空</h3>
-                    <div class="exercise-controls">
-                        <button class="btn-check" onclick="checkCloze()"><i class="fas fa-check-circle"></i> 檢查答案</button>
-                        <button class="btn-reset" onclick="resetCloze()"><i class="fas fa-undo-alt"></i> 重新開始</button>
-                    </div>
-                </div>
-                <div id="cloze-text" class="exercise-content"></div>
-                <div id="cloze-feedback" class="feedback-area"></div>
-            </div>
-
-            <!-- 句子配對 (7選5) 拖拽 -->
-            <div class="exercise-section" id="sevenfive-section" style="display: none;">
-                <div class="section-header">
-                    <h3><i class="fas fa-tasks"></i> 句子配對 · 拖拽短語</h3>
-                    <div class="exercise-controls">
-                        <button class="btn-check" onclick="checkSevenFive()"><i class="fas fa-check-circle"></i> 檢查答案</button>
-                        <button class="btn-reset" onclick="resetSevenFive()"><i class="fas fa-undo-alt"></i> 重新開始</button>
-                        <button class="btn-undo" onclick="undoSevenFiveDrag()"><i class="fas fa-history"></i> 返回上一步</button>
-                    </div>
-                </div>
-                <div id="sevenfive-drag-container"></div>
-                <div id="sevenfive-text" class="exercise-content"></div>
-                <div id="sevenfive-feedback" class="feedback-area"></div>
-            </div>
-
-            <!-- 語法填空 (Grammar Fill-in) -->
-            <div class="exercise-section" id="grammar-section" style="display: none;">
-                <div class="section-header">
-                    <h3><i class="fas fa-language"></i> 語法填空</h3>
-                    <div class="exercise-controls">
-                        <button class="btn-check" onclick="checkGrammar()"><i class="fas fa-check-circle"></i> 檢查答案</button>
-                        <button class="btn-reset" onclick="resetGrammar()"><i class="fas fa-undo-alt"></i> 重新開始</button>
-                    </div>
-                </div>
-                <div id="grammar-text" class="exercise-content"></div>
-                <div id="grammar-feedback" class="feedback-area"></div>
+            <div class="article-content" id="article-content">
+                <div class="loading">載入文章內容中...</div>
             </div>
         </div>
-        <!-- ============= 互動練習區塊結束 ============= -->
 
-<!-- 原有卡片區域 (單詞/句子) -->
-<div class="section cards-section active" id="words-cards">
-    <div class="section-controls">
-        <div class="section-title">高頻詞彙</div>
-        <div>
-            <button class="reset-all-button" onclick="resetAllUnitsData(event)">
-                <i class="fas fa-trash-alt"></i> 重置所有單元
-            </button>
-            <button class="reset-button" onclick="resetCurrentTabData(event)">
-                <i class="fas fa-redo"></i> 重置當前單元
-            </button>
+        <!-- ============= 詞彙表區塊 ============= -->
+        <div class="vocab-section-wrapper">
+            <h2 class="section-title">
+                <i class="fas fa-bookmark"></i> 核心詞彙 · 點擊發音
+            </h2>
+            <div class="vocab-grid" id="vocab-grid">
+                <div class="loading">載入詞彙中...</div>
+            </div>
         </div>
-    </div>
-    <!-- ✅ 這是 app.js 要操作的 #words-grid 元素 -->
-    <div class="cards-grid" id="words-grid">
-        <div class="loading">
-            <i class="fas fa-spinner fa-spin"></i> 請先選擇單元...
-        </div>
-    </div>
-</div>
 
-<div class="section cards-section" id="sentences-cards">
-    <div class="section-controls">
-        <div class="section-title">句子讀默</div>
-        <div>
-            <button class="reset-all-button" onclick="resetAllUnitsData(event)">
-                <i class="fas fa-trash-alt"></i> 重置所有單元
-            </button>
-            <button class="reset-button" onclick="resetCurrentTabData(event)">
-                <i class="fas fa-redo"></i> 重置當前單元
-            </button>
+        <!-- ============= 閱讀理解 ============= -->
+        <div class="reading-section-wrapper">
+            <h2 class="section-title">
+                <i class="fas fa-question-circle"></i> 閱讀理解 · 選擇題
+            </h2>
+            <div class="reading-container" id="reading-container">
+                <div class="loading">載入題目中...</div>
+            </div>
         </div>
-    </div>
-    <!-- ✅ 這是 app.js 要操作的 #sentences-grid 元素 -->
-    <div class="cards-grid" id="sentences-grid">
-        <div class="loading">
-            <i class="fas fa-spinner fa-spin"></i> 請先選擇單元...
-        </div>
-    </div>
-</div>
 
-        <!-- Footer 保持不變 -->
-        <div class="footer"><!-- 內容略 --></div>
+        <!-- ============= 完形填空 ============= -->
+        <div class="cloze-section-wrapper">
+            <h2 class="section-title">
+                <i class="fas fa-edit"></i> 完形填空
+            </h2>
+            <div class="cloze-container" id="cloze-container">
+                <div class="loading">載入題目中...</div>
+            </div>
+        </div>
+
+        <!-- ============= 句子配對 (7選5) ============= -->
+        <div class="sevenfive-section-wrapper">
+            <h2 class="section-title">
+                <i class="fas fa-tasks"></i> 句子配對 · 拖拽短語
+            </h2>
+            <div class="sevenfive-container" id="sevenfive-container">
+                <div class="loading">載入題目中...</div>
+            </div>
+        </div>
+
+        <!-- ============= 語法填空 ============= -->
+        <div class="grammar-section-wrapper">
+            <h2 class="section-title">
+                <i class="fas fa-language"></i> 語法填空
+            </h2>
+            <div class="grammar-container" id="grammar-container">
+                <div class="loading">載入題目中...</div>
+            </div>
+        </div>
+
+        <!-- 頁尾 -->
+        <div class="footer">
+            <div>英語文章閱讀 · 互動練習系統 © 2026</div>
+        </div>
     </div>
 
     <script src="js/app.js"></script>
